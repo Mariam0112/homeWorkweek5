@@ -1,0 +1,105 @@
+/*шапка*/
+header {
+    margin: 30px;
+    }
+nav {
+    border: 1px solid black;
+    
+    padding-left: 130px;
+    }
+.menu {
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        font-weight: bolder;
+        margin: 20px;
+    }
+div.top {
+    padding-left: 700px;
+    }
+svg {
+    margin-left: 20px;
+        }
+nav .menu:hover {
+        text-decoration: underline;
+    }
+input {
+        height: 40px;
+        width: 259px;
+    }
+button {
+        border: none;
+        background-color: #fff;
+    }
+/*конец шаки*/
+/*тело*/    
+main {
+        width: 1200px;
+        height: 720px;
+        margin-left: 40px;
+        background-color: #F6F8FA;
+        border-radius: 16px;
+        font-family: 'Roboto', sans-serif;
+    } /*не понимаю как поместить картинку на задний план от заголовка, но на передний план от фона. и как сохранить так, чтобы у картинки была прозрачность position absolut не срабатывает*/
+h1 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    height: 144px;
+    width: 362px;
+    left: 80px;
+    top: 248px;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 48px;
+    }
+p.main {
+    position: absolute;
+    width: 391px;
+    height: 64px;
+    left: 80px;
+    top: 412px;
+}
+p.best {
+    position: absolute;
+    left: 80px;
+    top: 460px;
+}
+span {
+    margin-left: 20px;
+}
+.button {
+    position: absolute;
+    top: 508px
+}
+.fon {
+    width: 80%;
+    height: 720px;
+    padding-left: 230px;
+} 
+.customise {
+    position: absolute;
+    width: 253px;
+    height: 64px;
+    margin-left: 80px;
+    background: #3B61FF;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 23px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.buy {
+    box-sizing: border-box;
+    position: absolute;
+    width: 308px;
+    height: 64px;
+    left: 349px;
+    border: 2px solid #2F2F2F;
+    border-radius: 4px;
+}
+/*конец тела*/
+footer {
+position: absolute;
+padding-left: 50px;
+}
